@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.size-h-w{
+  width: 100% !important;
+  height: 100vh !important;
+}
+.yellow{
+  padding: 5%;
+  margin: 5%;
+
+  background-color: yellow;
+  color: black;
+  border-radius: 20px;
+  width: 130px;
+  text-align: center;
+  overflow: visible;
+}
+.blue{
+  padding: 5%;
+  margin: 5%;
+  font-weight: 800;
+  background-color: blue;
+  color: black;
+  border-radius: 20px;
+  width: 130px;
+  text-align: center;
+  overflow: visible;
+  margin-left: 80%;
+}
